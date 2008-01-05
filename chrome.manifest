@@ -1,0 +1,8 @@
+# Main content.
+content background chrome/content/
+skin	background 	classic/1.0	chrome/skin/
+locale	background 	en-US	chrome/locale/en-US/
+
+
+# Overlay.
+overlay	chrome://songbird/content/xul/menuOverlay.xul	chrome://background/content/menu-overlay.xul

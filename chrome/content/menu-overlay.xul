@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://background/skin/background.css" type="text/css"?>
+<!DOCTYPE overlay [
+<!ENTITY % overlayDTD SYSTEM "chrome://background/locale/overlay.dtd">
+%overlayDTD;
+]>
+
+<overlay id="background-menu-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://background/content/background.js"/>	
+	<script type="application/x-javascript" src="chrome://background/content/menu-overlay.js"/>	
+	
+	<menupopup id="menu_ToolsPopup"> 
+		<menuitem id="backgrounOptions-menuitem" 
+			label="&background.editBackgroundStyle;"
+            insertbefore="menu_preferences"
+            oncommand="backgroundOptionsOnCommand()"/>
+  </menupopup>
+</overlay>
+
