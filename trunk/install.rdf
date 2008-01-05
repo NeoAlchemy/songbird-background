@@ -1,0 +1,24 @@
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+
+    <!-- Extension Name and ID -->
+    <em:id>{f3c177b3-8706-46bb-aa8b-995bbf2889a3}</em:id>
+    <em:name>Background</em:name>
+    
+    <!-- Extension target application. -->
+    <em:targetApplication>
+      <Description>
+        <em:id>songbird@songbirdnest.com</em:id>
+        <em:minVersion>0.3pre</em:minVersion>
+        <em:maxVersion>0.4.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Extension version, creator and description. -->
+    <em:version>0.1.2</em:version>
+    <em:creator>Ryan (NeoAlchemy) Zielke</em:creator>
+    <em:description>Change songbird's background with an image or a color and other changes to UI elements</em:description>
+
+  </Description>
+</RDF>

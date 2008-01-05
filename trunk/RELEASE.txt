@@ -1,0 +1,14 @@
+BACKGROUND v0.1.2
+(released on Jan-05-2008)
+ * fixed service panel issue in 0.4 songbird (new css ids used)
+ * restyled how transparency dropdowns are organized for more settings later
+
+BACKGROUND v0.1.1 (renamed from 0.2 as of Jan-05-2008)
+(released on Jan-01-2008)
+ * upgraded for 0.4 songbird
+
+BACKGROUND v0.1
+(released on Dec-22-2007)
+ * initial version.  
+ * ability to change the main background color or image.
+ * ability to set transparency to faceplate or service pane.
