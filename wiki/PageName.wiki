@@ -7,3 +7,4 @@ upcoming feature set for songbird-background extension
  * change the font used in toolbar
  * ability to change the menu and dialog backgrounds
  * design what can also have background applied to as a row of checkboxes under colors and images
+ * ability to add background image from context menu for gifs/jpg/etc.
