@@ -1,9 +1,11 @@
 var backgroundPrefObj = { image : "", 
 						   color : "", 
+						   menuColor : "",
 						   faceplateOpacity: "", 
 						   servicesOpacity: "", 
 						   useColor: false,
-						   useImage: false 
+						   useImage: false,
+						   useMenuColor: false
 						 };
 
 var backgroundPrefServiceObserver =
@@ -23,9 +25,11 @@ var backgroundPrefServiceObserver =
 	setPrefrences: function(backgroundPrefObj)	{
 		this._backgroundBranch.setCharPref("image", backgroundPrefObj.image);
 		this._backgroundBranch.setCharPref("color", backgroundPrefObj.color);
+		this._backgroundBranch.setCharPref("menuColor", backgroundPrefObj.menuColor);
 		this._backgroundBranch.setCharPref("opacity.faceplate", backgroundPrefObj.faceplateOpacity);
 		this._backgroundBranch.setCharPref("opacity.services", backgroundPrefObj.servicesOpacity);
 		this._backgroundBranch.setBoolPref("useColor", backgroundPrefObj.useColor);
+		this._backgroundBranch.setBoolPref("useMenuColor", backgroundPrefObj.useMenuColor);
 		this._backgroundBranch.setBoolPref("useImage", backgroundPrefObj.useImage);
 	},
 	
@@ -37,9 +41,11 @@ var backgroundPrefServiceObserver =
 	getPreferenceObj: function() {
 		backgroundPrefObj.image = this._backgroundBranch.getCharPref("image");
 		backgroundPrefObj.color = this._backgroundBranch.getCharPref("color");
+		backgroundPrefObj.menuColor = this._backgroundBranch.getCharPref("menuColor");
 		backgroundPrefObj.faceplateOpacity = this._backgroundBranch.getCharPref("opacity.faceplate");
 		backgroundPrefObj.servicesOpacity = this._backgroundBranch.getCharPref("opacity.services");
 		backgroundPrefObj.useColor = this._backgroundBranch.getBoolPref("useColor");
+		backgroundPrefObj.useMenuColor = this._backgroundBranch.getBoolPref("useMenuColor");
 		backgroundPrefObj.useImage = this._backgroundBranch.getBoolPref("useImage");
 		return backgroundPrefObj;
 	},
@@ -88,6 +94,10 @@ function updateBackground(bgPrefObj)
 	}
 	else {
 		cssRules[rule_index] = "#mainplayer {}";
+	}
+	if (bgPrefObj.useMenuColor ) {
+		cssRules[++rule_index] = "menu > label { color: " + bgPrefObj.menuColor + " !important;}";
+		cssRules[++rule_index] = "#sb-sys-title-title { color: " + bgPrefObj.menuColor + " !important;}";
 	}
 	cssRules[++rule_index] = "#faceplate { opacity: " + bgPrefObj.faceplateOpacity + " !important;}";
 	cssRules[++rule_index] = "#miniplayer_box { opacity: " + bgPrefObj.faceplateOpacity + " !important;}";

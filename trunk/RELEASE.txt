@@ -1,3 +1,11 @@
+BACKGROUND v2.2 
+(released on Mar-09-2008)
+ * ability to change the menubar's color.  Allowing them to be more visible during 
+
+BACKGROUND v2.1 (needs to be higher than 0.2 for all to auto upgrade)
+(released on Feb-06-2008)
+ * upgraded for 0.5pre
+
 BACKGROUND v0.1.2
 (released on Jan-05-2008)
  * fixed service panel issue in 0.4 songbird (new css ids used)
@@ -13,6 +21,3 @@ BACKGROUND v0.1
  * ability to change the main background color or image.
  * ability to set transparency to faceplate or service pane.
  
-BACKGROUND v2.1 (needs to be higher than 0.2 for all to auto upgrade)
-(released on Feb-06-2008)
- * upgraded for 0.5pre

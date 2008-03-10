@@ -1,7 +1,9 @@
 <!ENTITY background.editBackgroundStyle "Edit background style">
 
 <!ENTITY background.selectColor "Select a color that you would like the background to have">
+<!ENTITY background.selectMenuColor "Select a color that you would like the menu to have">
 <!ENTITY background.chooseTitle "Choose a background color or image">
+<!ENTITY background.otherElements "Change color for other elements">
 <!ENTITY background.selectImage "Enter an address for an image that you would like the background to have">
 <!ENTITY background.faceplateOpaqueLevel "Faceplate">
 <!ENTITY background.serviceOpaqueLevel "Services">
