@@ -16,7 +16,7 @@
     </em:targetApplication>
 
     <!-- Extension version, creator and description. -->
-    <em:version>0.2.1</em:version>
+    <em:version>0.2.2</em:version>
     <em:creator>Ryan (NeoAlchemy) Zielke</em:creator>
     <em:description>Change songbird's background with an image or a color and other changes to UI elements</em:description>
 

@@ -26,6 +26,15 @@
 				<checkbox id="disable-image" label="&background.disabled;" checked="false" style="margin-left: 3px"/>
 			</hbox>
 		</groupbox>
+		<groupbox>
+			<caption label="&background.otherElements;" />
+			<label value="&background.selectMenuColor;" />
+			<hbox>
+				<colorpicker flex="1" type="button" id="background-menucolorpicker" 
+						palettename="web"/>
+				<checkbox id="disable-menuColor" label="&background.disabled;" checked="false" style="margin-left: 3px"/>
+			</hbox>
+		</groupbox>
 		<groupbox style="margin-top: 10px">
 			<caption label="&background.transperencyTitle;" />
 			<hbox>
