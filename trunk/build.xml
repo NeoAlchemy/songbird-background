@@ -4,7 +4,7 @@
     </description>
 
     <!-- Zip the results into an xpi file -->
-    <delete  file="background_0.2.2.xpi"/>
-    <zip destfile="background_0.2.2.xpi" basedir="./" excludes=".svn/, defaults/.svn/, chrome/.svn/, chrome/skin/.svn/, chrome/locale/.svn/, chrome/locale/en-US/.svn/, chrome/content/.svn/, build.xml, run.bat"/>
+    <delete  file="background_0.2.3.xpi"/>
+    <zip destfile="background_0.2.3.xpi" basedir="./" excludes=".svn/, defaults/.svn/, chrome/.svn/, chrome/skin/.svn/, chrome/locale/.svn/, chrome/locale/en-US/.svn/, chrome/content/.svn/, build.xml, run.bat"/>
 
 </project>
