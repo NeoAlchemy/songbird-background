@@ -1,9 +1,9 @@
 upcoming feature set for songbird-background extension
-
-= Feature Ideas=
-
+== Implementing for 0.3 ==
  * transparency on background image
  * transparency for other display panes
+ * ability to add background image from context menu for gifs/jpg/etc.
+
+= Feature Ideas=
  * ability to change the menu and dialog backgrounds
  * design what can also have background applied to as a row of checkboxes under colors and images
- * ability to add background image from context menu for gifs/jpg/etc.
