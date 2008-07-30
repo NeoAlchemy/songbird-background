@@ -3,6 +3,7 @@ BACKGROUND v0.3
  * added ability to change the right sidebar opacity level
  * added ability to change the bottom content opacity level
  * added ability to change the bottom playlist opacity level
+ * added a icon image
 
 BACKGROUND v0.2.4 
 (released on Jun-10-2008)
