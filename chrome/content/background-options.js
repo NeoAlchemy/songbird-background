@@ -8,6 +8,9 @@ function preview()
 		menuColor : document.getElementById("background-menucolorpicker").color,
 		faceplateOpacity: document.getElementById("background-faceplate-opaque").value, 
 		servicesOpacity: document.getElementById("background-service-opaque").value, 
+		rightSidebarOpacity: document.getElementById("background-rightSidebar-opaque").value,
+		contentOpacity: document.getElementById("background-content-opaque").value,
+		bottomPlaylistOpacity: document.getElementById("background-bottomPlaylist-opaque").value,
 		useColor: !(document.getElementById("disable-color").checked), 
 		useMenuColor: !(document.getElementById("disable-menuColor").checked),
 		useImage: !(document.getElementById("disable-image").checked)
@@ -33,6 +36,9 @@ function startup()
 	document.getElementById("background-menucolorpicker").color = bgPrefObj.menuColor;
 	document.getElementById("background-faceplate-opaque").value = bgPrefObj.faceplateOpacity;
 	document.getElementById("background-service-opaque").value = bgPrefObj.servicesOpacity;
+	document.getElementById("background-rightSidebar-opaque").value = bgPrefObj.rightSidebarOpacity;
+	document.getElementById("background-content-opaque").value = bgPrefObj.contentOpacity;
+	document.getElementById("background-bottomPlaylist-opaque").value = bgPrefObj.bottomPlaylistOpacity;
 	document.getElementById("disable-color").checked = !bgPrefObj.useColor;
 	document.getElementById("disable-menuColor").checked = !bgPrefObj.useMenuColor;
 	document.getElementById("disable-image").checked = !bgPrefObj.useImage;

@@ -1,3 +1,9 @@
+BACKGROUND v2.7 
+(released on Jul-30-2008)
+ * added ability to change the right sidebar opacity level
+ * added ability to change the bottom content opacity level
+ * added ability to change the bottom playlist opacity level
+
 BACKGROUND v2.4 
 (released on Jun-10-2008)
  * upgraded for 0.7pre

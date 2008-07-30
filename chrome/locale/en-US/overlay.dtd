@@ -7,6 +7,9 @@
 <!ENTITY background.selectImage "Enter an address for an image that you would like the background to have">
 <!ENTITY background.faceplateOpaqueLevel "Faceplate">
 <!ENTITY background.serviceOpaqueLevel "Services">
+<!ENTITY background.rightSidebarOpaqueLevel "Right Sidebar">
+<!ENTITY background.contentOpaqueLevel "Content Pane">
+<!ENTITY background.bottomPlaylistOpaqueLevel "Bottom Playlist">
 <!ENTITY background.transperencyTitle "Set the transparency for the following">
 
 <!ENTITY background.disabled "disabled">
