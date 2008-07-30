@@ -3,6 +3,9 @@ var backgroundPrefObj = { image : "",
 						   menuColor : "",
 						   faceplateOpacity: "", 
 						   servicesOpacity: "", 
+						   rightSidebarOpacity: "",
+						   contentOpacity: "",
+						   bottomPlaylistOpacity: "",
 						   useColor: false,
 						   useImage: false,
 						   useMenuColor: false
@@ -28,6 +31,9 @@ var backgroundPrefServiceObserver =
 		this._backgroundBranch.setCharPref("menuColor", backgroundPrefObj.menuColor);
 		this._backgroundBranch.setCharPref("opacity.faceplate", backgroundPrefObj.faceplateOpacity);
 		this._backgroundBranch.setCharPref("opacity.services", backgroundPrefObj.servicesOpacity);
+		this._backgroundBranch.setCharPref("opacity.right", backgroundPrefObj.rightSidebarOpacity);
+		this._backgroundBranch.setCharPref("opacity.content", backgroundPrefObj.contentOpacity);
+		this._backgroundBranch.setCharPref("opacity.bottomPlaylist", backgroundPrefObj.bottomPlaylistOpacity);
 		this._backgroundBranch.setBoolPref("useColor", backgroundPrefObj.useColor);
 		this._backgroundBranch.setBoolPref("useMenuColor", backgroundPrefObj.useMenuColor);
 		this._backgroundBranch.setBoolPref("useImage", backgroundPrefObj.useImage);
@@ -44,6 +50,9 @@ var backgroundPrefServiceObserver =
 		backgroundPrefObj.menuColor = this._backgroundBranch.getCharPref("menuColor");
 		backgroundPrefObj.faceplateOpacity = this._backgroundBranch.getCharPref("opacity.faceplate");
 		backgroundPrefObj.servicesOpacity = this._backgroundBranch.getCharPref("opacity.services");
+		backgroundPrefObj.rightSidebarOpacity = this._backgroundBranch.getCharPref("opacity.right");
+		backgroundPrefObj.contentOpacity = this._backgroundBranch.getCharPref("opacity.content");
+		backgroundPrefObj.bottomPlaylistOpacity = this._backgroundBranch.getCharPref("opacity.bottomPlaylist");
 		backgroundPrefObj.useColor = this._backgroundBranch.getBoolPref("useColor");
 		backgroundPrefObj.useMenuColor = this._backgroundBranch.getBoolPref("useMenuColor");
 		backgroundPrefObj.useImage = this._backgroundBranch.getBoolPref("useImage");
@@ -102,6 +111,9 @@ function updateBackground(bgPrefObj)
 	cssRules[++rule_index] = "#faceplate { opacity: " + bgPrefObj.faceplateOpacity + " !important;}";
 	cssRules[++rule_index] = "#miniplayer_box { opacity: " + bgPrefObj.faceplateOpacity + " !important;}";
 	cssRules[++rule_index] = "#servicepane_box { opacity: " + bgPrefObj.servicesOpacity + " !important;}";
+	cssRules[++rule_index] = "#displaypane_right_sidebar { opacity: " + bgPrefObj.rightSidebarOpacity + " !important;}";
+	cssRules[++rule_index] = "#displaypane_contentpane_bottom { opacity: " + bgPrefObj.contentOpacity + " !important;}";
+	cssRules[++rule_index] = "#sb-playlist-tree { opacity: " + bgPrefObj.bottomPlaylistOpacity + " !important;}";
 		
 	styleSheetUtility.deleteAllRules();
 	styleSheetUtility.insertAllRules(cssRules);
