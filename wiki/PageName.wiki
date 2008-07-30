@@ -1,7 +1,6 @@
 upcoming feature set for songbird-background extension
-== Implementing for 0.3 ==
- * transparency on background image
- * transparency for other display panes
+== Implementing for 0.3.5 ==
+ * transparency on background image (possibly need a XUL bug fixed to accomplish this)
  * ability to add background image from context menu for gifs/jpg/etc.
 
 = Feature Ideas=
