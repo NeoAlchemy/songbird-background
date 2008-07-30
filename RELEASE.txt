@@ -1,22 +1,22 @@
-BACKGROUND v2.7 
+BACKGROUND v0.3
 (released on Jul-30-2008)
  * added ability to change the right sidebar opacity level
  * added ability to change the bottom content opacity level
  * added ability to change the bottom playlist opacity level
 
-BACKGROUND v2.4 
+BACKGROUND v0.2.4 
 (released on Jun-10-2008)
  * upgraded for 0.7pre
 
-BACKGROUND v2.3 
+BACKGROUND v0.2.3 
 (released on Mar-19-2008)
  * upgraded for 0.6pre
 
-BACKGROUND v2.2 
+BACKGROUND v0.2.2 
 (released on Mar-09-2008)
  * ability to change the menubar's color.  Allowing them to be more visible during 
 
-BACKGROUND v2.1 (needs to be higher than 0.2 for all to auto upgrade)
+BACKGROUND v0.2.1 (needs to be higher than 0.2 for all to auto upgrade)
 (released on Feb-06-2008)
  * upgraded for 0.5pre
 
