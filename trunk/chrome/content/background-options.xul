@@ -5,9 +5,9 @@
 %overlayDTD;
 ]>
 <window id="background-options-window"
-		width="400"
+		width="425"
 		title="Background Options"
-		height="450"
+		height="500"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<script type="application/x-javascript" src="chrome://background/content/background-options.js"/>
 	<vbox flex="1" style="overflow: auto">
