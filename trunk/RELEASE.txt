@@ -1,6 +1,7 @@
 BACKGROUND v0.3.1 
 (released on Aug-07-2008)
  * upgraded for 0.8pre
+ * increased size of dialog box for gonzo feather
 
 
 BACKGROUND v0.3
