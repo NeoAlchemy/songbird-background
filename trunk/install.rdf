@@ -11,12 +11,12 @@
       <Description>
         <em:id>songbird@songbirdnest.com</em:id>
         <em:minVersion>0.4pre</em:minVersion>
-        <em:maxVersion>0.8pre</em:maxVersion>
+        <em:maxVersion>0.8.0pre</em:maxVersion>
       </Description>
     </em:targetApplication>
 
     <!-- Extension version, creator and description. -->
-    <em:version>0.3.1</em:version>
+    <em:version>0.3.2</em:version>
     <em:creator>Ryan (NeoAlchemy) Zielke</em:creator>
     <em:description>Change songbird's background with an image or a color and other changes to UI elements</em:description>
     <em:iconURL>chrome://background/content/background.png</em:iconURL>

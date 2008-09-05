@@ -1,3 +1,7 @@
+BACKGROUND v0.3.2
+(released on Sep-05-2008)
+ * upgraded for 0.8.0pre
+
 BACKGROUND v0.3.1 
 (released on Aug-07-2008)
  * upgraded for 0.8pre
