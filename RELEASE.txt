@@ -1,4 +1,4 @@
-BACKGROUND v0.4.1 
+BACKGROUND v0.4.2 
 (released on Apr-22-2008)
  * upgraded for 1.1.*
 
